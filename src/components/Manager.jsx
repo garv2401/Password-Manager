@@ -38,12 +38,12 @@ const Manager = () => {
 
   const showPassword=()=>{
     
-    if(ref.current.src.includes("/public/eye-crossed-svgrepo-com.svg")){
-      ref.current.src="/public/eye-svgrepo-com.svg"
+    if(ref.current.src.includes("/eye-crossed-svgrepo-com.svg")){
+      ref.current.src="/eye-svgrepo-com.svg"
       passRef.current.type="text";
     }
     else{
-      ref.current.src="/public/eye-crossed-svgrepo-com.svg"
+      ref.current.src="/eye-crossed-svgrepo-com.svg"
       passRef.current.type="password";
 
     }
@@ -218,7 +218,7 @@ const Manager = () => {
                 <img
                   ref={ref}
                   className="px-2 py-1"
-                  src="/public/eye-crossed-svgrepo-com.svg"
+                  src="/eye-crossed-svgrepo-com.svg"
                   alt="eye"
                   width={38}
                 />
