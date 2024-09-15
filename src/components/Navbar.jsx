@@ -20,7 +20,7 @@ const Navbar = () => {
         </ul>
 
         <button className="ml-20 github text-white bg-purple-200 hover:text-slate-500">
-          <a href="https://github.com/garv2401" targte="__blank"><img src="/public/iconmonstr-github-1.svg" alt="" className='' /></a>
+          <a href="https://github.com/garv2401" targte="__blank"><img src="https://github.com/garv2401/Password-Manager/blob/main/public/iconmonstr-github-1.svg" alt="" className='' /></a>
         </button>
 
         </div>
